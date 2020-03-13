@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types",
+            "typings"
+        ]
+    }
+}

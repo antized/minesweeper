@@ -1,0 +1,27 @@
+{
+    "name": "pixi-sound-webpack-example",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "build": "webpack --config webpack.production.js",
+        "types": "tsc -noEmit"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "pixi-sound": "^3.0.4",
+        "pixi.js": "^5.2.1",
+        "ts-loader": "^6.0.1",
+        "typescript": "^3.4.5",
+        "webpack": "^4.32.2",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.4.1"
+    },
+    "dependencies": {
+        "pixi-tween": "^0.2.0"
+    }
+}
